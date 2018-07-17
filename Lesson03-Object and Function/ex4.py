@@ -3,5 +3,5 @@ def maker(x):
         return x**y
     return action
 
-f = maker(9)
-print(f(5))
+f = maker(8)
+print(f(4))

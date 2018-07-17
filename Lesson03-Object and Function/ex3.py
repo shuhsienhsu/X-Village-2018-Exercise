@@ -6,7 +6,7 @@ def f(x,y):
     elif(x < y):
         return 'a < b'
 
-a = 1
+a = 5
 b = 2
 result = f(a,b)
 print(result)
