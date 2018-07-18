@@ -1,7 +1,6 @@
 def mul(num):
-    value = 1
-    for i in range(num):
-        value *= (i + 1)
-    return value
+    if(num == 1):
+        return 1
+    return num*mul(num-1)
 
 print(mul(10))

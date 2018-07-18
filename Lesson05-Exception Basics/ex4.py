@@ -30,3 +30,5 @@ except RelationException as e:
 except Exception:
     print("No relation found")
     print("Are you sure that " + p1 + " and " + p2 + " are in love with each other?")
+
+#it is an keyerror
